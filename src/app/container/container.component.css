@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    width: 236px;
+    height: 62px;
+}
+
+.top-container {
+    display: flex;
+    font-size: 16px;
+    justify-content: end;
+    width: 100%;
+}
+
+.bottom-container {
+    display: flex;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #063970;
+    transform: translateY(-15px);
+}
+
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 5px solid #063970;
+    z-index: 20;
+}
+
+.number{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.capsule {
+    height: 40px;
+    background: #87c3eb;
+    display: flex;
+    border-radius: 5px 0 0 5px;
+    transform: translateY(3px);
+}
+
+.left-content {
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.text{
+    font-size: 10px;
+}
+
+.middle-red {
+    height: 40px;
+    width: 20px;
+    background: linear-gradient(to left top, rgb(247, 105, 105) 50%, transparent 51%, rgba(0,0,0,0) 71%, rgba(255,55,8,0) 100%);
+}
+
+.right-content-red {
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    background: linear-gradient(to right,rgb(247, 105, 105) 50%,#fff);
+    display: flex;
+    align-items: center;
+}
+
+.middle-yellow{
+    height: 40px;
+    width: 20px;
+    background: linear-gradient(to left top,rgb(233, 218, 99)50%, transparent 51%, rgba(0,0,0,0) 71%, rgba(255,55,8,0) 100%);
+}
+
+.right-content-yellow{
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    background: linear-gradient(to right,rgb(233, 218, 99) 50%,#fff);
+    display: flex;
+    align-items: center;
+}
+.middle-green{
+    height: 40px;
+    width: 20px;
+    background: linear-gradient(to left top,rgb(107, 210, 153)50%, transparent 51%, rgba(0,0,0,0) 71%, rgba(255,55,8,0) 100%);
+}
+
+.right-content-green{
+    width: 60px;
+    height: 40px;
+    margin-left: 20px;
+    background: linear-gradient(to right,rgb(107, 210, 153) 50%,#fff);
+    display: flex;
+    align-items: center;
+}
+
+.value{
+    font-size: 16px;
+    color: black;
+}

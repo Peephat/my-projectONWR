@@ -1,0 +1,38 @@
+
+.nav{
+    width: fit-content;
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+}
+
+.container-10-11{
+    position: absolute;
+    top: 274px; left: 270px;
+}
+
+.container-30-33{
+    position: absolute;
+    top: 461px; left: 270px;
+}
+
+.container-34-35{
+    position: absolute;
+    top: 851px; left: 270px;
+}
+
+.container-24-29{
+    position: absolute;
+    top: 506px; right: 270px;
+}
+
+.container-12-23{
+    position: absolute;
+    top: 133px; right:0 ;
+}
+
+.container-foot{
+    position: absolute;
+    top: 841px;
+    left: 5px;
+}

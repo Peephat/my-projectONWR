@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="top-container">
+      <p>{{name}}</p>
+    </div>
+    <div class="bottom-container">
+      <div class="number">
+        <div class="c">{{numberC}}</div>
+        <div class="triangle"></div>
+      </div>
+      <div class="capsule">
+        <div class="left-content">
+          <p class="text">น้ำใช้บริการ</p>
+          <p class="value">{{numberLeft}}</p>
+        </div>
+        <div  [ngClass]="Mid(numberRigth)">
+          <div  [ngClass]="RigthContainer(numberRigth)">
+            <p class="value">{{numberRigth}}%</p>
+          </div>
+        </div>
+      </div>
+    </div>
